@@ -33,7 +33,7 @@ pipeline {
                 sh '''
                 test -f build/index.html
                     echo "Running tests"
-                    pnpm run test
+                    npm test
                 '''
             }
         }
